@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatios & Perritos</title>
     <!-- BootsWatch -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/pulse/bootstrap.min.css" integrity="sha384-L7+YG8QLqGvxQGffJ6utDKFwmGwtLcCjtwvonVZR/Ba2VzhpMwBz51GaXnUsuYbj" crossorigin="anonymous">
     <!-- Custom CSS-->
-    <link rel="stylesheet" href="./src/styles/style.css">
-
+    <link rel="stylesheet" href="../styles/style.css" type="text/css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/2d20755c25.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -22,11 +23,11 @@
   
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Gatitos</a>
+        <li class="nav-item">
+          <a class="nav-link" href="./src/pages/cat.index.html">Gatitos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./dogs.index.html">Perritos</a>
+          <a class="nav-link" href="./src/pages/dogs.index.html">Perritos</a>
         </li>
         <!--
         <li class="nav-item dropdown">
@@ -41,18 +42,27 @@
         -->
         </li>
       </ul>
+      <!-- DarkMode-->
+      <ul class="navbar-nav mr-right btn-group btn-group-toggle">
+        <button type="button" class="switch-darkMode active" id="switch-darkMode">
+          <span class="switch-icon"><i class="fas fa-sun"></i></span>
+          <span class="switch-icon"><i class="fas fa-moon"></i></span>
+        </button>
+        
+      </ul>
+      <!-- ################################## -->
     </div>
   </nav>
   <!-- ################################################################################# -->
 
-  <div class="jumbotron" style="margin-top: 10px;">
-    
-  </div>
+  
     
   <!-- Scripts BootsTrap 4-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- JS Custom -->
+  <script src="../scripts/index.js"></script>
 
 </body>
 </html>
