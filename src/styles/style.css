@@ -1,6 +1,6 @@
 /* Vars*/
 :root{
-    --hola: #ffffff
+    --test: #777
 }
 
 /**************************/
@@ -13,9 +13,6 @@ h1 {
     text-align: center;
 }
 
-li{
-    color: var(--hola)
-}
 
 .card{
     margin-top: 20px;
@@ -148,6 +145,10 @@ div.card-header img{
     body.dark p{
         color: white
     }
+
+    body.dark li {
+        color: white;
+    } 
 
     body.dark nav{
         background-color: var(--gray);
