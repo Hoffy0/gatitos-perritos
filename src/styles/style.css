@@ -13,6 +13,24 @@ h1 {
     text-align: center;
 }
 
+li{
+    color: var(--hola)
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: 50px;
+    left: 20px;
+    float: left;
+
+}
+
+div.card-header img{
+    max-width: 200px;
+    object-fit: cover;
+
+}
+
 /* Styles Slider */
 .container-slider{
     width: 90%;
@@ -137,6 +155,10 @@ h1 {
 
     body.dark div.jumbotron{
         background: #1c2931;
+    }
+
+    body.dark div.card{
+        background: #17141f;
     }
 
     

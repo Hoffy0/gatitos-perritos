@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/paw-solid.ico" type="image/x-icon">
     <title>Gatios & Perritos</title>
     <!-- BootsWatch -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/pulse/bootstrap.min.css" integrity="sha384-L7+YG8QLqGvxQGffJ6utDKFwmGwtLcCjtwvonVZR/Ba2VzhpMwBz51GaXnUsuYbj" crossorigin="anonymous">
     <!-- Custom CSS-->
-    <link rel="stylesheet" href="./src/styles/style.css" type="text/css">
-
+    <link rel="stylesheet" href="../styles/style.css" type="text/css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/2d20755c25.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
   <!-- NavBar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="../../index.html">ONG - Ayuda a un peludo</a>
+    <a class="navbar-brand" href="../../index.html">ONG <i class="fas fa-hand-holding-medical"></i> Ayuda a un peludo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,8 +27,8 @@
         <li class="nav-item">
           <a class="nav-link" href="./cat.index.html">Gatitos</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Perritos</a>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Perritos</a>
         </li>
         <!--
         <li class="nav-item dropdown">
@@ -41,18 +43,103 @@
         -->
         </li>
       </ul>
+      <!-- DarkMode-->
+      <ul class="navbar-nav mr-right btn-group btn-group-toggle">
+        <button type="button" class="switch-darkMode active" id="switch-darkMode">
+          <span class="switch-icon"><i class="fas fa-sun"></i></span>
+          <span class="switch-icon"><i class="fas fa-moon"></i></span>
+        </button>
+        
+      </ul>
+      <!-- ################################## -->
     </div>
   </nav>
   <!-- ################################################################################# -->
 
-  <div class="jumbotron" style="margin-top: 10px;">
-    
+  <div class="jumbotron">
+    <h1>Nuestos amigos caninos <i class="fas fa-dog"></i></h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vitae repellat eaque animi quae. 
+      Eligendi, similique voluptatibus autem deleniti, voluptate perferendis atque aperiam exercitationem 
+      quidem fugit fuga. Laudantium, ut accusamus minima ratione iste ducimus laboriosam sed! Mollitia 
+      molestias ducimus error corporis, cum dolorem, veritatis ab commodi laborum quae consequuntur 
+      repellat.
+    </p>
   </div>
+  <div class="row">
+    <div class="card-pets">
+      <div class="card">
+        <div class="card-header">
+          <img src="https://www.ecestaticos.com/image/clipping/996/747/79776773aab795837282c7d4947abaf7/por-que-nos-parece-que-los-perros-sonrien-una-historia-de-30-000-anos.jpg" alt="">
+          <h1>Lucy</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Sexo: Hembra <i class="fas fa-venus"></i> <br>
+            Meses: 6 <br>
+            Esterilizado: No <br>
+            N° Chip: 990563451392478
+
+          </p>
+          <button class="btn btn-primary"> Adoptalo/a </button>
+        </div>
+      </div>
+      <!---------->
+      <div class="card">
+        <div class="card-header">
+          <img src="https://www.hola.com/imagenes/estar-bien/20201005176621/perro-husky-raza-perro-lobo/0-874-110/husky-1-a.jpg" alt="">
+          <h1>Bodoque</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Sexo: Macho <i class="fas fa-mars"></i> <br>
+            Años: 7 <br>
+            Esterilizado: Si <br>
+            N° Chip: 835666532594370
+          </p>
+          <button class="btn btn-primary"> Adoptalo/a </button>
+        </div>
+      </div>
+      <!---------->
+      <div class="card">
+        <div class="card-header">
+          <img src="http://ovejeroaleman.cl/wp-content/uploads/2018/06/1.jpg" alt="">
+          <h1>Tigre</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Sexo: Macho <i class="fas fa-mars"></i> <br>
+            Meses: 5 <br>
+            Esterilizado: No <br>
+            N° Chip: 941718561852703
+          </p>
+          <button class="btn btn-primary"> Adoptalo/a </button>
+        </div>
+      </div>
+      <!---------->
+      <div class="card">
+        <div class="card-header">
+          <img src="https://www.perrospedia.com/wp-content/uploads/2014/06/poodle-2.jpg" alt="">
+          <h1>Copita</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Sexo: Hembra <i class="fas fa-venus"></i> <br>
+            Años: 10 <br>
+            Esterilizado: Si <br>
+            N° Chip: 956736398477134
+          </p>
+          <button class="btn btn-primary"> Adoptalo/a </button>
+        </div>
+      </div>
+      <!---------->
     
   <!-- Scripts BootsTrap 4-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- JS Custom -->
+  <script src="../scripts/index.js"></script>
 
 </body>
 </html>
