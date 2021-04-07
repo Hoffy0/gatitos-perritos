@@ -5,9 +5,15 @@
 
 /**************************/
 
-body nav{
-    color: #593196;
+.bg-primary {
+    background-color:  #593196 !important;
 }
+
+/*
+nav.navbar{
+    background-color: #593196;
+}
+*/
 
 h1 {
     text-align: center;
